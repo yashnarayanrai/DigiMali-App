@@ -9,10 +9,10 @@ import Foundation
 import SwiftUI
 
 extension Color {
-    static let plum = Color("Plum")
-    static let marron = Color("Marron")
+    static let primary = Color("Plum")
+    static let secondary = Color("Marron")
     static let cyan = Color("Cyan")
-    static let magenta = Color("Magenta")
-    static let white = Color("White")
-    static let black = Color("Black")
+    static let accent = Color("Magenta")
+//    static let white = Color("White")
+//    static let black = Color("Black")
 }
