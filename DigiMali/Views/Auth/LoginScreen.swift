@@ -8,48 +8,45 @@
 import SwiftUI
 
 struct LoginView: View {
+    @State private var id = ""
+    @State private var password = ""
+    @State private var showError = false
+    
     var body: some View {
+        
         ZStack{
             
             AppBackground()
             
-            CardView(icon: "lock", title: "User Login"){
+            VStack(){
                 
-//                Id Field
-                TextField("South African ID Number",text: .constant(""))
-                    .padding()
-                    .background(Color.marron)
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 10)
-                            .stroke(Color.white.opacity(0.5),lineWidth: 1)
-                    ).foregroundColor(Color.white)
-            
-//                Password
-                
-                SecureField("Password",text: .constant(""))
-                    .padding()
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 10)
-                            .stroke(Color.white.opacity(0.5),lineWidth: 1)
-                    )
-                    .foregroundColor(Color.white)
-                
-//                Error
-                Text("Incorrect username or password")
-                    .foregroundColor(Color.magenta)
-                    .font(.caption)
-                
-//                Button
-                Button(action: {}){
-                    Text("Login")
-                        .foregroundColor(Color.white)
-                        .frame(maxWidth: .infinity)
-                        .padding()
-                        .background(Color.magenta)
-                        .cornerRadius(10)
+                Spacer()
+                Header_Digimali()
+                Spacer()
+                CardView(icon: "lock", title: "User Login"){
+                    
+    //                Id Field
+                    AppTextField(placeholder: "*South African ID Number", text:$id)
+    //                Password
+                    AppTextField(placeholder: "*Password", text: $password,isSecure: true)
+                    
+                    
+    //                Error
+                    if showError{
+                        Text("Incorrect username or password")
+                            .foregroundColor(Color.accent)
+                            .font(.caption)
+                    }
+                    
+    //                Button
+                    AppButton(title: "Login") {
+                        if id.isEmpty || password.isEmpty{
+                            showError = true
+                        }
+                    }
+                        .padding(.bottom,40)
                 }
-
-
+                Spacer()
             }
         }
     }
