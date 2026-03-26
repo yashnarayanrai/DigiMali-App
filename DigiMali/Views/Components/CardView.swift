@@ -21,13 +21,16 @@ struct CardView<Content:View>: View {
     
     var body: some View{
         VStack(spacing:20){
-            
             ZStack{
                 Circle()
                     .fill(Color.white)
                     .frame(width: 70, height: 70)
                 
-                Image(systemName: icon)
+                Image(icon)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 35,height: 35)
+                    
             }
             
             Text(title)
@@ -38,7 +41,7 @@ struct CardView<Content:View>: View {
             
         }
         .padding(25)
-        .background(Color.marron)
+        .background(Color.secondary)
         .cornerRadius(20)
         .shadow(color:Color.black,radius: 10,x:0,y:5)
         .padding(.horizontal, 25)
