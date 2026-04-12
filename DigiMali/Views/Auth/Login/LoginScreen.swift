@@ -7,10 +7,11 @@
 
 import SwiftUI
 
-struct LoginView: View {
-    @State private var id = ""
+struct LoginScreen: View {
+    @State private var email = ""
     @State private var password = ""
     @State private var showError = false
+    @StateObject private var vm = LoginViewModel()
     
     var body: some View {
         
@@ -23,16 +24,16 @@ struct LoginView: View {
                 Spacer()
                 Header_Digimali()
                 Spacer()
-                CardView(icon: "lock", title: "User Login"){
+                CardView(icon: "LockIcons", title: "User Login"){
                     
     //                Id Field
-                    AppTextField(placeholder: "*South African ID Number", text:$id)
+                    AppTextField(placeholder: "*South African ID Number", text:$email)
     //                Password
                     AppTextField(placeholder: "*Password", text: $password,isSecure: true)
                     
                     
     //                Error
-                    if showError{
+                    if vm.showError{
                         Text("Incorrect username or password")
                             .foregroundColor(Color.accent)
                             .font(.caption)
@@ -40,20 +41,27 @@ struct LoginView: View {
                     
     //                Button
                     AppButton(title: "Login") {
-                        if id.isEmpty || password.isEmpty{
-                            showError = true
+                        if email.isEmpty || password.isEmpty{
+                            vm.showError = true
                         }
+                        
+                        vm.login(email: email, password: password)
+                        
                     }
                         .padding(.bottom,40)
                 }
                 Spacer()
             }
         }
+        
+        .navigationDestination(isPresented: $vm.isLoggedIn){
+            LoginUpdatePassword()
+        }
     }
 }
 
-struct LoginView_Previews: PreviewProvider {
+struct LoginScreen_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView()
+        LoginScreen()
     }
 }

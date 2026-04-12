@@ -10,11 +10,17 @@ import SwiftUI
 @main
 struct DigiMaliApp: App {
     let persistenceController = PersistenceController.shared
+    
+    init(){
+        UINavigationBar.appearance().tintColor = UIColor.red
+    }
 
     var body: some Scene {
         WindowGroup {
-            HomeView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            NavigationStack{
+                Login_SignUp()
+                    .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            }
         }
     }
 }

@@ -16,12 +16,23 @@
 		13093E992F6CFB3E00F61090 /* DigiMaliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13093E982F6CFB3E00F61090 /* DigiMaliUITests.swift */; };
 		13093E9B2F6CFB3E00F61090 /* DigiMaliUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13093E9A2F6CFB3E00F61090 /* DigiMaliUITestsLaunchTests.swift */; };
 		13093EAB2F6D98C500F61090 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13093EAA2F6D98C500F61090 /* Launch Screen.storyboard */; };
-		13093EAF2F6DA1C500F61090 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13093EAE2F6DA1C500F61090 /* HomeView.swift */; };
 		13093EB52F703D7300F61090 /* AppBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13093EB42F703D7300F61090 /* AppBackground.swift */; };
 		13093EB72F7057CB00F61090 /* Header Digimali.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13093EB62F7057CB00F61090 /* Header Digimali.swift */; };
+		134BC5752F8555C000BBFAB0 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134BC5742F8555C000BBFAB0 /* LoginModel.swift */; };
+		134BC5782F8556B500BBFAB0 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134BC5772F8556B500BBFAB0 /* APIService.swift */; };
+		134DD02C2F881A3000C0ED23 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134DD02B2F881A3000C0ED23 /* SignUpView.swift */; };
 		134EBE5D2F71898F0045A8F5 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134EBE5C2F71898F0045A8F5 /* LoginScreen.swift */; };
+		13A6897E2F76CFE4004D57F1 /* ForgotPasswordVerificationCodeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A6897D2F76CFE4004D57F1 /* ForgotPasswordVerificationCodeScreen.swift */; };
+		13DDB7332F8BAA00002BC65F /* Login:SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DDB7322F8BAA00002BC65F /* Login:SignUp.swift */; };
+		13DDB7352F8BAB2E002BC65F /* LoginUpdatePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DDB7342F8BAB2E002BC65F /* LoginUpdatePassword.swift */; };
+		13DDB73B2F8BB769002BC65F /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DDB73A2F8BB769002BC65F /* SignUpScreen.swift */; };
+		13DDB73D2F8BB917002BC65F /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DDB73C2F8BB917002BC65F /* SignUpModel.swift */; };
+		13DDB73F2F8BC7C8002BC65F /* SignUpScreenAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DDB73E2F8BC7C8002BC65F /* SignUpScreenAddress.swift */; };
+		13F773E42F85644F00F75BC9 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F773E32F85644F00F75BC9 /* LoginViewModel.swift */; };
 		13FD31DE2F754F3A0029122A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FD31DD2F754F390029122A /* Color.swift */; };
 		13FD31E02F7554BB0029122A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FD31DF2F7554BB0029122A /* CardView.swift */; };
+		13FD31E32F757F470029122A /* AppTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FD31E22F757F470029122A /* AppTextField.swift */; };
+		13FD31E52F7580D30029122A /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FD31E42F7580D30029122A /* AppButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,12 +66,23 @@
 		13093E982F6CFB3E00F61090 /* DigiMaliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigiMaliUITests.swift; sourceTree = "<group>"; };
 		13093E9A2F6CFB3E00F61090 /* DigiMaliUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigiMaliUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		13093EAA2F6D98C500F61090 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		13093EAE2F6DA1C500F61090 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		13093EB42F703D7300F61090 /* AppBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackground.swift; sourceTree = "<group>"; };
 		13093EB62F7057CB00F61090 /* Header Digimali.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Header Digimali.swift"; sourceTree = "<group>"; };
+		134BC5742F8555C000BBFAB0 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		134BC5772F8556B500BBFAB0 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		134DD02B2F881A3000C0ED23 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		134EBE5C2F71898F0045A8F5 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		13A6897D2F76CFE4004D57F1 /* ForgotPasswordVerificationCodeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVerificationCodeScreen.swift; sourceTree = "<group>"; };
+		13DDB7322F8BAA00002BC65F /* Login:SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login:SignUp.swift"; sourceTree = "<group>"; };
+		13DDB7342F8BAB2E002BC65F /* LoginUpdatePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUpdatePassword.swift; sourceTree = "<group>"; };
+		13DDB73A2F8BB769002BC65F /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
+		13DDB73C2F8BB917002BC65F /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
+		13DDB73E2F8BC7C8002BC65F /* SignUpScreenAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreenAddress.swift; sourceTree = "<group>"; };
+		13F773E32F85644F00F75BC9 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		13FD31DD2F754F390029122A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		13FD31DF2F7554BB0029122A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		13FD31E22F757F470029122A /* AppTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextField.swift; sourceTree = "<group>"; };
+		13FD31E42F7580D30029122A /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				13093E772F6CFB3800F61090 /* DigiMaliApp.swift */,
+				134BC5762F85568100BBFAB0 /* Service */,
 				13093EA72F6D985600F61090 /* Models */,
 				13093EA92F6D988700F61090 /* ViewsModels */,
 				13093EA82F6D987300F61090 /* Views */,
@@ -152,6 +175,8 @@
 		13093EA72F6D985600F61090 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				134BC5742F8555C000BBFAB0 /* LoginModel.swift */,
+				13DDB73C2F8BB917002BC65F /* SignUpModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -159,12 +184,10 @@
 		13093EA82F6D987300F61090 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				13FD31E12F757D200029122A /* Components */,
 				13FD31DC2F754F140029122A /* Extension */,
 				134EBE5B2F7189750045A8F5 /* Auth */,
-				13093EAE2F6DA1C500F61090 /* HomeView.swift */,
 				13093EAA2F6D98C500F61090 /* Launch Screen.storyboard */,
-				13093EB42F703D7300F61090 /* AppBackground.swift */,
-				13093EB62F7057CB00F61090 /* Header Digimali.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -172,17 +195,47 @@
 		13093EA92F6D988700F61090 /* ViewsModels */ = {
 			isa = PBXGroup;
 			children = (
+				13F773E32F85644F00F75BC9 /* LoginViewModel.swift */,
 			);
 			path = ViewsModels;
+			sourceTree = "<group>";
+		};
+		134BC5762F85568100BBFAB0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				134BC5772F8556B500BBFAB0 /* APIService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		134EBE5B2F7189750045A8F5 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				134EBE5C2F71898F0045A8F5 /* LoginScreen.swift */,
-				13FD31DF2F7554BB0029122A /* CardView.swift */,
+				13DDB7322F8BAA00002BC65F /* Login:SignUp.swift */,
+				13DDB7312F8BA932002BC65F /* Login */,
+				13DDB7392F8BB744002BC65F /* Sign Up */,
+				134DD02B2F881A3000C0ED23 /* SignUpView.swift */,
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		13DDB7312F8BA932002BC65F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				134EBE5C2F71898F0045A8F5 /* LoginScreen.swift */,
+				13A6897D2F76CFE4004D57F1 /* ForgotPasswordVerificationCodeScreen.swift */,
+				13DDB7342F8BAB2E002BC65F /* LoginUpdatePassword.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		13DDB7392F8BB744002BC65F /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				13DDB73A2F8BB769002BC65F /* SignUpScreen.swift */,
+				13DDB73E2F8BC7C8002BC65F /* SignUpScreenAddress.swift */,
+			);
+			path = "Sign Up";
 			sourceTree = "<group>";
 		};
 		13FD31DC2F754F140029122A /* Extension */ = {
@@ -191,6 +244,18 @@
 				13FD31DD2F754F390029122A /* Color.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		13FD31E12F757D200029122A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				13FD31DF2F7554BB0029122A /* CardView.swift */,
+				13093EB62F7057CB00F61090 /* Header Digimali.swift */,
+				13093EB42F703D7300F61090 /* AppBackground.swift */,
+				13FD31E22F757F470029122A /* AppTextField.swift */,
+				13FD31E42F7580D30029122A /* AppButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,15 +389,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13FD31E52F7580D30029122A /* AppButton.swift in Sources */,
 				13093E812F6CFB3D00F61090 /* Persistence.swift in Sources */,
 				13FD31E02F7554BB0029122A /* CardView.swift in Sources */,
+				13DDB7352F8BAB2E002BC65F /* LoginUpdatePassword.swift in Sources */,
 				13093EB72F7057CB00F61090 /* Header Digimali.swift in Sources */,
-				13093EAF2F6DA1C500F61090 /* HomeView.swift in Sources */,
 				13093E842F6CFB3D00F61090 /* DigiMali.xcdatamodeld in Sources */,
 				134EBE5D2F71898F0045A8F5 /* LoginScreen.swift in Sources */,
+				13A6897E2F76CFE4004D57F1 /* ForgotPasswordVerificationCodeScreen.swift in Sources */,
+				13F773E42F85644F00F75BC9 /* LoginViewModel.swift in Sources */,
+				134BC5782F8556B500BBFAB0 /* APIService.swift in Sources */,
+				134BC5752F8555C000BBFAB0 /* LoginModel.swift in Sources */,
+				13DDB73B2F8BB769002BC65F /* SignUpScreen.swift in Sources */,
+				13DDB73D2F8BB917002BC65F /* SignUpModel.swift in Sources */,
 				13FD31DE2F754F3A0029122A /* Color.swift in Sources */,
+				134DD02C2F881A3000C0ED23 /* SignUpView.swift in Sources */,
 				13093E782F6CFB3800F61090 /* DigiMaliApp.swift in Sources */,
+				13DDB73F2F8BC7C8002BC65F /* SignUpScreenAddress.swift in Sources */,
 				13093EB52F703D7300F61090 /* AppBackground.swift in Sources */,
+				13FD31E32F757F470029122A /* AppTextField.swift in Sources */,
+				13DDB7332F8BAA00002BC65F /* Login:SignUp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
